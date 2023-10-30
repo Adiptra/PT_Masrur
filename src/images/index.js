@@ -8,6 +8,8 @@ import iconQuickly from "./iconQuickly.svg";
 import iconTransparent from "./iconTransparent.svg";
 import iconPrecisely from "./iconPrecisely.svg";
 import iconArrow from "./iconArrow.svg";
+import bgHistory1 from "./bgHistory1.png";
+import bgHistory2 from "./bgHistory2.png";
 
 export {
   about,
@@ -20,4 +22,6 @@ export {
   iconQuickly,
   iconTransparent,
   iconArrow,
+  bgHistory1,
+  bgHistory2,
 };

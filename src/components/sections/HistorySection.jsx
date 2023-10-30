@@ -3,13 +3,15 @@ import { historySection } from "../../constants/content/historyContent";
 import { Container, Spacing } from "../../layouts";
 import React from "react";
 import { TextIcon } from "../reusable";
-import { iconArrow } from "../../images";
+import { iconArrow, bgHistory1, bgHistory2 } from "../../images";
 // import BenefitSection from "./BenefitSection";
 
 const HistorySection = () => {
   const histories = historySection.histories;
   return (
-    <section className="flex w-full text-white mt-16 bg-[#0F172A] pb-16">
+    <section className="relative flex w-full text-white mt-16 bg-[#0F172A] pb-16">
+      <img src={bgHistory1} className="absolute -top-10 -left-2" />
+      <img src={bgHistory2} className="absolute -bottom-10" />
       <div className="wrapper">
         <div className="container-1 flex justify-center items-center flex-col mb-32">
           <div className="title text-center text-[36px] font-InterBd py-16">
