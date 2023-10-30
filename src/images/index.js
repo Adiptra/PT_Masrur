@@ -7,6 +7,7 @@ import quote from "./single-quote.svg";
 import iconQuickly from "./iconQuickly.svg";
 import iconTransparent from "./iconTransparent.svg";
 import iconPrecisely from "./iconPrecisely.svg";
+import iconArrow from "./iconArrow.svg";
 
 export {
   about,
@@ -18,4 +19,5 @@ export {
   iconPrecisely,
   iconQuickly,
   iconTransparent,
+  iconArrow,
 };
