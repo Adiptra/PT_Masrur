@@ -11,7 +11,7 @@ const BenefitSection = () => {
           {benefitContent.title}
         </div>
         <div className="right-content w-[75%]">
-          <div className="flex px-2 py-2">
+          <div className="flex py-1">
             {benefits.map((benefit) => (
               <div className="flex gap-3 py-2" key={benefit.id}>
                 <div className=" w-[100px] h-[47px]">
