@@ -12,10 +12,20 @@ export default {
         generalMd: ["GeneralSansMd"],
         generalSb: ["GeneralSansSb"],
         generalBd: ["GeneralSansBd"],
+        InterBlack: ["InterBlack"],
+        InterLi: ["InterLi"],
+        InterRg: ["InterRg"],
+        InterMd: ["InterMd"],
+        InterSb: ["InterSb"],
+        InterBd: ["InterBd"],
       },
 
       dropShadow: {
         text: "0 10px 20px rgba(0, 0, 0, 0.25)",
+      },
+
+      boxShadow: {
+        innerBlue: "inset 0 5px 10px 0px #D0DDFF",
       },
     },
   },
