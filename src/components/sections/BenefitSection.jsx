@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-key */
 import { benefitContent } from "../../constants/content/benefitContent";
+import { TextIcon } from "../reusable";
 
 const BenefitSection = () => {
   const benefits = benefitContent.benefits;
@@ -14,10 +15,9 @@ const BenefitSection = () => {
             {benefits.map((benefit) => (
               <div className="flex gap-3 py-2" key={benefit.id}>
                 <div className=" w-[100px] h-[47px]">
-                  <img
-                    className="bg-[#FFDCDD] py-2 px-2 rounded-full "
-                    src={benefit.icon}
-                    alt=""
+                  <TextIcon
+                    icon={benefit.icon}
+                    className="py-2 px-2 rounded-full bg-[#FFDCDD]"
                   />
                 </div>
                 <div className="desc-right">
