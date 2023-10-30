@@ -3,7 +3,7 @@ import React from "react";
 
 const HistorySection = () => {
   return (
-    <section className="bg-lime-300 w-full">
+    <section className="w-full">
       <Spacing>
         <Container>
           <h1>p</h1>

@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const TextIcon = () => {
-  return (
-    <div>TextIcon</div>
-  )
-}
+const TextIcon = ({ className, text, icon}) => {
+  return <div>TextIcon</div>;
+};
 
-export default TextIcon
+export default TextIcon;
