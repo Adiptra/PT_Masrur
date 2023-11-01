@@ -11,6 +11,7 @@ import bgHistory1 from "./bgHistory1.png";
 import bgHistory2 from "./bgHistory2.png";
 import check from "./check.svg";
 import expCover from "./expCover.jpeg";
+import expCover2 from "./expCover2.jpg";
 
 export {
   about,
@@ -26,4 +27,5 @@ export {
   bgHistory2,
   check,
   expCover,
+  expCover2,
 };

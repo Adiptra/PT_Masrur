@@ -1,4 +1,4 @@
-import { check, expCover } from "../../images";
+import { check, expCover, expCover2 } from "../../images";
 export const experienceSection = [
   {
     title: "Our Experience in The World of Mining",
@@ -56,7 +56,7 @@ export const experienceSection = [
       },
       {
         id: 2,
-        img: expCover,
+        img: expCover2,
         title: "Experience for Mining Contractor",
         takeOver: [
           {

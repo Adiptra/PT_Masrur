@@ -66,6 +66,52 @@ const ExperienceSection = () => {
             </div>
           ))}
         </div>
+        <div className="content-wrapper mt-16 w-full">
+          {experienceSection.map((element) => (
+            <div className="flex rounded-[20px] bg-[#F0F5FF]">
+              <div className="left relative w-1/2">
+                <img
+                  src={element.content[1].img}
+                  alt=""
+                  className="object-cover h-full"
+                  style={{ borderRadius: "20px 0 0 20px" }}
+                />
+                <div
+                  className="absolute top-0 flex justify-center items-center bg-black w-full h-full bg-opacity-60"
+                  style={{ borderRadius: "20px 0 0 20px" }}
+                >
+                  <h1 className="text-white font-generalSb text-3xl w-[55%]">
+                    {element.content[1].title}
+                  </h1>
+                </div>
+              </div>
+              <div className="right w-1/2 flex justify-center">
+                <div className="py-10 w-[82%]">
+                  <div className="wrapper">
+                    <div className="title font-generalSb text-[24px] text-[#556487]">
+                      {element.content[1].takeOver[0].title}
+                    </div>
+                    {element.content[1].takeOver[0].lists.map((list) => (
+                      <div className="flex gap-4 mt-2" key={list.id}>
+                        <img src={list.icon} />
+                        <h3>{list.desc}</h3>
+                      </div>
+                    ))}
+                    <div className="title font-generalSb text-[24px] mt-6 text-[#556487]">
+                      {element.content[1].purchaseAgree[0].title}
+                    </div>
+                    {element.content[1].purchaseAgree[0].lists.map((list) => (
+                      <div className="flex gap-4 mt-2" key={list.id}>
+                        <img src={list.icon} />
+                        <h3>{list.desc}</h3>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
