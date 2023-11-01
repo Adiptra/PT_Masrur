@@ -7,13 +7,10 @@ import quote from "./single-quote.svg";
 import iconQuickly from "./iconQuickly.svg";
 import iconTransparent from "./iconTransparent.svg";
 import iconPrecisely from "./iconPrecisely.svg";
-<<<<<<< HEAD
 import star from "./star.svg";
-=======
 import iconArrow from "./iconArrow.svg";
 import bgHistory1 from "./bgHistory1.png";
 import bgHistory2 from "./bgHistory2.png";
->>>>>>> 8c6642abffd641e44ff122eaf932776af12a6578
 
 export {
   about,
@@ -25,11 +22,8 @@ export {
   iconPrecisely,
   iconQuickly,
   iconTransparent,
-<<<<<<< HEAD
   star,
-=======
   iconArrow,
   bgHistory1,
   bgHistory2,
->>>>>>> 8c6642abffd641e44ff122eaf932776af12a6578
 };
