@@ -12,7 +12,7 @@ import {
 
 const Main = () => {
   return (
-    <main className="bg-baseColor flex justify-center flex-col relative h-max bg-[#F5F5F7]">
+    <main className="bg-baseColor flex justify-center flex-col relative h-max bg-white">
       {/* full */}
       <HeroSection />
 
