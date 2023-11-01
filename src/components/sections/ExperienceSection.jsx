@@ -1,14 +1,13 @@
 /* eslint-disable react/jsx-key */
 import React from "react";
 import { experienceSection } from "../../constants/content/experienceContent";
-import { expCover } from "../../images";
 
 const ExperienceSection = () => {
-  const buyers = experienceSection.map(
-    (element) => element.content[0].buyer[0].title
-  );
+  const mappedLists = experienceSection.map((section) => {
+    section.content[0].id;
+  });
 
-  console.log(buyers);
+  console.log(mappedLists);
   return (
     <div className="mt-[100px] border-t-[1px] pt-16">
       <div className="wrapper ">
@@ -41,9 +40,26 @@ const ExperienceSection = () => {
                 </div>
               </div>
               <div className="right w-1/2 flex justify-center">
-                <div className="wrapper bg-red-50 w-[80%]">
-                  <div className="title font-generalSb text-[24px] text-[#556487]">
-                    {element.content[0].buyer[0].title}
+                <div className="py-10 w-[82%]">
+                  <div className="wrapper">
+                    <div className="title font-generalSb text-[24px] text-[#556487]">
+                      {element.content[0].buyer[0].title}
+                    </div>
+                    {element.content[0].buyer[0].lists.map((list) => (
+                      <div className="flex gap-4 mt-2" key={list.id}>
+                        <img src={list.icon} />
+                        <h3>{list.desc}</h3>
+                      </div>
+                    ))}
+                    <div className="title font-generalSb text-[24px] mt-6 text-[#556487]">
+                      {element.content[0].legality[0].title}
+                    </div>
+                    {element.content[0].legality[0].lists.map((list) => (
+                      <div className="flex gap-4 mt-2" key={list.id}>
+                        <img src={list.icon} />
+                        <h3>{list.desc}</h3>
+                      </div>
+                    ))}
                   </div>
                 </div>
               </div>

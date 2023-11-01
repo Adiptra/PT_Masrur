@@ -11,7 +11,7 @@ export const experienceSection = [
         buyer: [
           {
             title: "Buyer",
-            list: [
+            lists: [
               {
                 id: 1,
                 icon: check,
