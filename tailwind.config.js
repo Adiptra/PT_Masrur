@@ -1,12 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  theme: {
-    extend: {
-      backgroundImage: {
-        hero: "url('src/images/hero-banner.png')",
-        service: "url('src/images/service-banner.png')",
-      },
+	content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+	theme: {
+		extend: {
+			backgroundImage: {
+				hero: "url('src/images/hero-banner.png')",
+				service: "url('src/images/service-banner.png')",
+				expCover: "url('src/images/expCover.jpeg')"
+			},
 
       fontFamily: {
         generalLi: ["GeneralSansLi"],
