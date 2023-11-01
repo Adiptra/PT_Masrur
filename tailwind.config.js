@@ -6,6 +6,7 @@ export default {
 			backgroundImage: {
 				hero: "url('src/images/hero-banner.png')",
 				service: "url('src/images/service-banner.png')",
+				expCover: "url('src/images/expCover.jpeg')"
 			},
 
 			fontFamily: {
