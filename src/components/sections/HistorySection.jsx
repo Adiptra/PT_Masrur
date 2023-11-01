@@ -1,6 +1,5 @@
 /* eslint-disable react/jsx-key */
 import { historySection } from "../../constants/content/historyContent";
-import { Container, Spacing } from "../../layouts";
 import React from "react";
 import { TextIcon } from "../reusable";
 import { iconArrow, bgHistory1, bgHistory2 } from "../../images";
