@@ -1,24 +1,44 @@
 /* eslint-disable react/jsx-key */
+import AOS from "aos";
+import "aos/dist/aos.css";
 import React from "react";
 import { Spacing, Container } from "../../layouts";
 import { Button, TextIcon } from "../reusable";
 import { about, quote } from "../../images";
 import { aboutSection } from "../../constants/content/aboutContent";
+AOS.init();
 
 const AboutSection = () => {
   return (
     <div className="border-t-[1px] pt-16 mt-16 border-[#00000080]">
       <Container>
         <div>
-          <h1 className="font-generalSb text-3xl lg:text-[36px] text-center lg:leading-10">
+          <h1
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-once="true"
+            className="font-generalSb text-3xl lg:text-[36px] text-center lg:leading-10"
+          >
             Let’s get to know us more deeply!
           </h1>
-          <p className="text-[#0F172A] text-xl text-center mt-2 lg:mt-0">
+          <p
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="500"
+            data-aos-once="true"
+            className="text-[#0F172A] text-xl text-center mt-2 lg:mt-0"
+          >
             Get to know us more deeply, so you can trust us!
           </p>
 
           <div className="about-us mt-20 flex justify-center items-center flex-wrap  lg:justify-between md:justify-center md:items-center">
-            <div className="left">
+            <div
+              className="left"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="800"
+              data-aos-once="true"
+            >
               <TextIcon
                 icon={about}
                 text={"About Us"}
@@ -27,7 +47,13 @@ const AboutSection = () => {
             </div>
 
             <div className="right text-xl mt-4 lg:mt-0">
-              <p className="max-w-[628px] text-center">
+              <p
+                className="max-w-[628px]"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-delay="800"
+                data-aos-once="true"
+              >
                 We are traders of premium Indonesian Coal. We provide kind of
                 Coal with many typical Specs. Our mine location at South
                 Kalimantan and East Kalimantan. With sufficient land area, we

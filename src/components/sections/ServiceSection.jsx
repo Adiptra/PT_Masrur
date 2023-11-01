@@ -2,7 +2,7 @@ import React from 'react';
 
 const ServiceSection = () => {
 	return (
-		<div>
+		<div className='mt-24'>
 			<div className='bg-service h-[608px] w-full text-white text-center flex justify-center items-center'>
 				<div className='text'>
 					<h1 className='text-[54px] font-semibold'>
