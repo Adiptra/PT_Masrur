@@ -5,9 +5,11 @@ export default {
     extend: {
       backgroundImage: {
         hero: "url('src/images/hero-banner.png')",
+        service: "url('src/images/service-banner.png')",
       },
 
       fontFamily: {
+        generalLi: ["GeneralSansLi"],
         generalRg: ["GeneralSansRg"],
         generalMd: ["GeneralSansMd"],
         generalSb: ["GeneralSansSb"],

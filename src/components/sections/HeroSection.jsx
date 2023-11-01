@@ -12,14 +12,14 @@ const HeroSection = () => {
         <Container>
           <div className="content max-w-[1108px]">
             <div className="text">
-              <h2 className="text-[#BEC1CA] rounded-[24px] bg-[#56565680] inline px-[20px] py-[5px] font-generalMd">
+              <h2 className="text-[#BEC1CA] rounded-[24px] text-[10px] md:text-sm lg:text-base bg-[#56565680] inline px-[20px] py-[5px] font-generalMd">
                 COAL & GOLD MINING , IRON ORE, TRADING, CONTRACTOR , EXPORT &
                 IMPORT
               </h2>
-              <h1 className="text-[54px] drop-shadow-text font-generalSb">
+              <h1 className="text-4xl mt-4 lg:text-[54px] drop-shadow-text font-generalSb leading-tight">
                 Providing Best Quality Coal for Your Needs!
               </h1>
-              <p className="max-w-[720px] inline-block">
+              <p className="max-w-[720px] inline-block mt-6 font-generalLi lg:text-base text-sm">
                 "We are a premium coal trader from Indonesia who offers products
                 with superior specifications. We come with the best coal
                 specifications, an easy purchasing process, and competitive

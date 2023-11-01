@@ -37,7 +37,6 @@ const Main = () => {
 
       {/* full */}
       <ServiceSection />
-      <Footer />
     </main>
   );
 };

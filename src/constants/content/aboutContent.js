@@ -16,8 +16,8 @@ export const aboutSection = [
         content: [
           {
             id: 1,
-            sub_id: "*",
-            text: "“To always be a company that has credibility and integrity in the energy sector",
+            sub_id: "",
+            text: "“To always be a company that has credibility and integrity in the energy sector“",
           },
         ],
       },

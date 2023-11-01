@@ -5,6 +5,11 @@
 /* General Sans */
 
 @font-face {
+  font-family: "GeneralSansLi";
+  src: local("GeneralSans"),
+    url("./fonts/general_sans/GeneralSans-Light.otf") format("opentype");
+}
+@font-face {
   font-family: "GeneralSansRg";
   src: local("GeneralSans"),
     url("./fonts/general_sans/GeneralSans-Regular.otf") format("opentype");
