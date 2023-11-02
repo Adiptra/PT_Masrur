@@ -9,7 +9,7 @@ const Footer = () => {
     <div>
       <div className="bg-[#0F172A] text-white pb-[150px]">
         <div className="container-footer">
-          <div className="footer-content flex justify-between items-start px-16 pt-[100px]">
+          <div className="footer-content flex justify-between items-start px-16 pt-[100px] flex-wrap">
             <div className="left">
               <div className="title">
                 <h1 className="text-2xl lg:text-[38px] font-generalSb">
@@ -21,8 +21,8 @@ const Footer = () => {
               </div>
               <div className="form mt-[83px]">
                 <form action="">
-                  <div className="">
-                    <div className="input-1 flex gap-x-6 items-start my-4">
+                  <div className="left">
+                    <div className="input-form flex gap-x-6 items-start my-4">
                       <div className="id">
                         <h2 className="text-xl font-generalMd">01</h2>
                       </div>
@@ -32,11 +32,11 @@ const Footer = () => {
                             What's your name?
                           </h2>
                         </div>
-                        <div className="input-field mt-10">
+                        <div className="input-field my-9 lg:inline-block flex flex-wrap mb-9">
                           <input
                             type="text"
                             placeholder="Firstname"
-                            className="bg-transparent border-b mr-4 pb-4 "
+                            className="bg-transparent border-b mr-4 pb-4 mb-9 sm:mb-0"
                           />
                           <input
                             type="text"
@@ -46,45 +46,92 @@ const Footer = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
-                  {footerForm.map((data) => (
-                    <div>
-                      <div className="input-form flex gap-x-6 items-start mt-10 my-4">
-                        <div className="id">
-                          <h2 className="text-xl font-generalMd">0{data.id}</h2>
+                    <div className="input-form flex gap-x-6 items-start my-4">
+                      <div className="id">
+                        <h2 className="text-xl font-generalMd">02</h2>
+                      </div>
+                      <div className="input-field w-full">
+                        <div className="title">
+                          <h2 className="text-xl font-generalMd">
+                            What's your email?
+                          </h2>
                         </div>
-                        <div className="form-field w-full">
-                          <div className="title">
-                            <label
-                              htmlFor=""
-                              className="text-xl font-generalMd"
-                            >
-                              {data.title}
-                            </label>
-                          </div>
-                          <div className="input-field mt-8 w-full ">
-                            {data.formField.map((inputContent) => (
-                              <input
-                                type="text"
-                                placeholder={inputContent.placeholder}
-                                className="mr-4 bg-transparent border-b pb-4 w-full outline-0"
-                              />
-                            ))}
-                          </div>
+                        <div className="input-field my-9">
+                          <input
+                            type="text"
+                            placeholder="example@example.com"
+                            className="bg-transparent border-b mr-4 pb-4 w-full"
+                          />
                         </div>
                       </div>
                     </div>
-                  ))}
-
-                  <Button
-                    className={"bg-white text-black w-full mt-20 ml-[20px]"}
-                  >
-                    Tes
-                  </Button>
+                    <div className="input-form flex gap-x-6 items-start my-4">
+                      <div className="id">
+                        <h2 className="text-xl font-generalMd">03</h2>
+                      </div>
+                      <div className="input-field w-full">
+                        <div className="title">
+                          <h2 className="text-xl font-generalMd">
+                            What's your company?
+                          </h2>
+                        </div>
+                        <div className="input-field my-9">
+                          <input
+                            type="text"
+                            placeholder="My Company"
+                            className="bg-transparent border-b mr-4 pb-4 w-full"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="input-form flex gap-x-6 items-start my-4">
+                      <div className="id">
+                        <h2 className="text-xl font-generalMd">04</h2>
+                      </div>
+                      <div className="input-field w-full">
+                        <div className="title">
+                          <h2 className="text-xl font-generalMd">
+                            What's products are you looking for?
+                          </h2>
+                        </div>
+                        <div className="input-field my-9">
+                          <input
+                            type="text"
+                            placeholder="Coal, Gold, Contractor"
+                            className="bg-transparent border-b mr-4 pb-4 w-full"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="input-form flex gap-x-6 items-start my-4">
+                      <div className="id">
+                        <h2 className="text-xl font-generalMd">05</h2>
+                      </div>
+                      <div className="input-field w-full">
+                        <div className="title">
+                          <h2 className="text-xl font-generalMd">
+                            Your message?
+                          </h2>
+                        </div>
+                        <div className="input-field my-9">
+                          <input
+                            type="text"
+                            placeholder="Hello, i need a coal ... *"
+                            className="bg-transparent border-b mr-4 pb-4 w-full"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <Button
+                      className={"bg-white text-black w-full mt-20 ml-[20px]"}
+                    >
+                      Tes
+                    </Button>
+                  </div>
                 </form>
               </div>
             </div>
-            <div className="right">
+            <div className="right lg:mt-0 mt-32">
               <div className="logo flex items-center gap-x-8">
                 <img
                   src={logoContact}
