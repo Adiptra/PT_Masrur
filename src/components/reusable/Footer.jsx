@@ -235,7 +235,7 @@ const Footer = () => {
                     >
                       <Button
                         className={
-                          "bg-white text-[#0F172A] w-1/2 md:w-full mt-20 ml-[40px] md:ml-[20px]"
+                          "bg-white hover:bg-slate-400 text-[#0F172A] w-1/2 md:w-full mt-20 ml-[40px] md:ml-[20px]"
                         }
                       >
                         Send Your Message!
