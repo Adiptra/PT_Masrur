@@ -3,11 +3,6 @@ import React from "react";
 import { experienceSection } from "../../constants/content/experienceContent";
 
 const ExperienceSection = () => {
-  const mappedLists = experienceSection.map((section) => {
-    section.content[0].id;
-  });
-
-  console.log(mappedLists);
   return (
     <div className="mt-[100px] border-t-[1px] pt-16">
       <div className="wrapper ">
