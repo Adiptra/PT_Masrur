@@ -6,18 +6,39 @@ const ExperienceSection = () => {
   return (
     <div className="mt-[100px] border-t-[1px] pt-16">
       <div className="wrapper ">
-        {experienceSection.map((element) => (
-          <>
-            <h1 className="text-center font-generalSb text-4xl">
-              {element.title}
-            </h1>
-            <h3 className="text-center text-xl">{element.subtitle}</h3>
-          </>
-        ))}
+        {experienceSection.map((element) => {
+          return (
+            <>
+              <h1
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-once="true"
+                className="text-center font-generalSb text-4xl"
+              >
+                {element.title}
+              </h1>
+              <h3
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-once="true"
+                data-aos-delay="200"
+                className="text-center text-xl"
+              >
+                {element.subtitle}
+              </h3>
+            </>
+          );
+        })}
 
         <div className="content-wrapper mt-24 w-full">
           {experienceSection.map((element) => (
-            <div className="flex-none md:flex rounded-[20px] bg-[#F0F5FF] h-auto">
+            <div
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-once="true"
+              data-aos-delay="400"
+              className="flex-none md:flex rounded-[20px] bg-[#F0F5FF] h-auto"
+            >
               <div className="left relative md:w-1/2">
                 <img
                   src={element.content[0].img}
@@ -63,7 +84,13 @@ const ExperienceSection = () => {
         </div>
         <div className="content-wrapper mt-16 w-full">
           {experienceSection.map((element) => (
-            <div className="flex-none md:flex rounded-[20px] bg-[#F0F5FF]">
+            <div
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-once="true"
+              data-aos-delay="600"
+              className="flex-none md:flex rounded-[20px] bg-[#F0F5FF]"
+            >
               <div className="left relative w-full md:w-1/2">
                 <img
                   src={element.content[1].img}
