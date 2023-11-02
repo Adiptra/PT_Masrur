@@ -12,7 +12,7 @@ import bgHistory2 from "./bgHistory2.png";
 import check from "./check.svg";
 import expCover from "./expCover.jpeg";
 import expCover2 from "./expCover2.jpg";
-import logoContact from "./logo-contact.png";
+import logoContact from "./logoMasrur.png";
 
 export {
   about,

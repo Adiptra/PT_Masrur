@@ -133,11 +133,7 @@ const Footer = () => {
             </div>
             <div className="right lg:mt-0 mt-32">
               <div className="logo flex items-center gap-x-8">
-                <img
-                  src={logoContact}
-                  alt=""
-                  className="bg-white rounded-full"
-                />
+                <img src={logoContact} alt="" className="" />
                 <h2 className="font-generalMd text-[42px]">PT MASRUR</h2>
               </div>
               <div className="location mt-24 max-w-[522px]">
