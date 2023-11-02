@@ -66,23 +66,59 @@ const AboutSection = () => {
       </Container>
 
       <Container className="relative">
-        <div className="mt-32 bg-[#dfe8ff] py-12 px-18 rounded-[20px] border-[#c0d2ff] border h-auto lg:h-full">
+        <div
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-duration="1000"
+          data-aos-delay="810"
+          data-aos-once="true"
+          className="mt-32 bg-[#dfe8ff] py-12 px-18 rounded-[20px] border-[#c0d2ff] border h-auto lg:h-full"
+        >
           <div className="left">
             <div className="flex flex-wrap justify-start px-8 items-center md:items-start md:justify-around ">
               {aboutSection.map((data) =>
                 data.purpose.map((dataContent) => (
                   <div className="content flex items-start gap-x-4 max-w-[610px] mt-6">
-                    <img src={quote} alt="" className="max-w-[24px] mt-2" />
+                    <img
+                      data-aos="fade-right"
+                      data-aos-duration="1000"
+                      data-aos-delay="900"
+                      data-aos-once="true"
+                      src={quote}
+                      alt=""
+                      className="max-w-[24px] mt-2"
+                    />
                     <div className="text">
-                      <h2 className="text-[#668DEB] text-[28px] font-semibold ">
+                      <h2
+                        data-aos="fade-right"
+                        data-aos-duration="1000"
+                        data-aos-delay="900"
+                        data-aos-once="true"
+                        className="text-[#668DEB] text-[28px] font-semibold "
+                      >
                         {dataContent.title}
                       </h2>
                       {dataContent.content.map((content) => (
                         <div className="flex mt-4 items-center gap-x-4">
-                          <h2 className="text-[38px] text-[#668DEB]">
+                          <h2
+                            key={content.id}
+                            data-aos="fade-right"
+                            data-aos-duration="1000"
+                            data-aos-delay="960"
+                            data-aos-once="true"
+                            className="text-[38px] text-[#668DEB]"
+                          >
                             {content.sub_id}
                           </h2>
-                          <p className="max-w-[430px]">{content.text}</p>
+                          <p
+                            data-aos="fade-right"
+                            data-aos-duration="1000"
+                            data-aos-delay="990"
+                            data-aos-once="true"
+                            className="max-w-[430px]"
+                          >
+                            {content.text}
+                          </p>
                         </div>
                       ))}
                     </div>

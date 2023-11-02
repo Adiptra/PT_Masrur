@@ -123,9 +123,9 @@ const Footer = () => {
                       </div>
                     </div>
                     <Button
-                      className={"bg-white text-black w-1/2 md:w-full mt-20 ml-[40px] md:ml-[20px]"}
+                      className={"bg-white text-[#0F172A] w-1/2 md:w-full mt-20 ml-[40px] md:ml-[20px]"}
                     >
-                      Tes
+                      Send Your Message!
                     </Button>
                   </div>
                 </form>
