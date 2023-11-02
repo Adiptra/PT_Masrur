@@ -65,8 +65,8 @@ const AboutSection = () => {
         </div>
       </Container>
 
-      <Container className="relative ">
-        <div className="mt-32 bg-[#dfe8ff] py-12 px-18 rounded-[20px] border-[#c0d2ff] border h-[768px] lg:h-full">
+      <Container className="relative">
+        <div className="mt-32 bg-[#dfe8ff] py-12 px-18 rounded-[20px] border-[#c0d2ff] border h-auto lg:h-full">
           <div className="left">
             <div className="flex flex-wrap justify-start px-8 items-center md:items-start md:justify-around ">
               {aboutSection.map((data) =>
@@ -94,7 +94,7 @@ const AboutSection = () => {
 
           <Button
             className={
-              "absolute bottom-10 lg:bottom-20 left-[64px] bg-white border border-[#00000033]"
+              "absolute bottom-10 hidden md:inline lg:bottom-20 left-[64px] bg-white border border-[#00000033]"
             }
           >
             Keep Scrolling

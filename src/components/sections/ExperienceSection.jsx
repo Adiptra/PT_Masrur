@@ -22,12 +22,12 @@ const ExperienceSection = () => {
 
         <div className="content-wrapper mt-24 w-full">
           {experienceSection.map((element) => (
-            <div className="flex rounded-[20px] bg-[#F0F5FF]">
-              <div className="left relative w-1/2">
+            <div className="flex-none md:flex rounded-[20px] bg-[#F0F5FF] h-auto">
+              <div className="left relative md:w-1/2">
                 <img
                   src={element.content[0].img}
                   alt=""
-                  className="object-contain"
+                  className="object-cover"
                   style={{ borderRadius: "20px 0 0 20px" }}
                 />
                 <div
@@ -39,8 +39,8 @@ const ExperienceSection = () => {
                   </h1>
                 </div>
               </div>
-              <div className="right w-1/2 flex justify-center">
-                <div className="py-10 w-[82%]">
+              <div className="right w-full md:w-1/2 flex justify-center">
+                <div className="pt-7 pb-9 md:pb-auto w-[82%]">
                   <div className="wrapper">
                     <div className="title font-generalSb text-[24px] text-[#556487]">
                       {element.content[0].buyer[0].title}
@@ -68,8 +68,8 @@ const ExperienceSection = () => {
         </div>
         <div className="content-wrapper mt-16 w-full">
           {experienceSection.map((element) => (
-            <div className="flex rounded-[20px] bg-[#F0F5FF]">
-              <div className="left relative w-1/2">
+            <div className="flex-none md:flex rounded-[20px] bg-[#F0F5FF]">
+              <div className="left relative w-full md:w-1/2">
                 <img
                   src={element.content[1].img}
                   alt=""
@@ -85,7 +85,7 @@ const ExperienceSection = () => {
                   </h1>
                 </div>
               </div>
-              <div className="right w-1/2 flex justify-center">
+              <div className="right w-full md:w-1/2 flex justify-center">
                 <div className="py-10 w-[82%]">
                   <div className="wrapper">
                     <div className="title font-generalSb text-[24px] text-[#556487]">

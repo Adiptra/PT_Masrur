@@ -68,8 +68,9 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden !important;
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
