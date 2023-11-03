@@ -5,7 +5,11 @@ export const footerForm = [
     formField: [
       {
         id: 1,
-        placeholder: "first name",
+        placeholder: "First name",
+      },
+      {
+        id: 2,
+        placeholder: "Last name",
       },
     ],
   },
@@ -40,7 +44,7 @@ export const footerForm = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Your message",
     formField: [
       {

@@ -5,72 +5,76 @@
 /* General Sans */
 
 @font-face {
-  font-family: "GeneralSansLi";
-  src: local("GeneralSans"),
-    url("./fonts/general_sans/GeneralSans-Light.otf") format("opentype");
+	font-family: 'GeneralSansLi';
+	src: local('GeneralSans'),
+		url('./fonts/general_sans/GeneralSans-Light.otf') format('opentype');
 }
 @font-face {
-  font-family: "GeneralSansRg";
-  src: local("GeneralSans"),
-    url("./fonts/general_sans/GeneralSans-Regular.otf") format("opentype");
+	font-family: 'GeneralSansRg';
+	src: local('GeneralSans'),
+		url('./fonts/general_sans/GeneralSans-Regular.otf') format('opentype');
 }
 @font-face {
-  font-family: "GeneralSansMd";
-  src: local("GeneralSans"),
-    url("./fonts/general_sans/GeneralSans-Medium.otf") format("opentype");
+	font-family: 'GeneralSansMd';
+	src: local('GeneralSans'),
+		url('./fonts/general_sans/GeneralSans-Medium.otf') format('opentype');
 }
 @font-face {
-  font-family: "GeneralSansSb";
-  src: local("GeneralSans"),
-    url("./fonts/general_sans/GeneralSans-Semibold.otf") format("opentype");
+	font-family: 'GeneralSansSb';
+	src: local('GeneralSans'),
+		url('./fonts/general_sans/GeneralSans-Semibold.otf') format('opentype');
 }
 
 @font-face {
-  font-family: "GeneralSansBd";
-  src: local("GeneralSans"),
-    url("./fonts/general_sans/GeneralSans-Bold.otf") format("opentype");
+	font-family: 'GeneralSansBd';
+	src: local('GeneralSans'),
+		url('./fonts/general_sans/GeneralSans-Bold.otf') format('opentype');
 }
 
 /* Inter */
 
 @font-face {
-  font-family: "InterLi";
-  src: local("Inter"), url("./fonts/inter/Inter-Light.ttf") format("truetype");
+	font-family: 'InterLi';
+	src: local('Inter'), url('./fonts/inter/Inter-Light.ttf') format('truetype');
 }
 @font-face {
-  font-family: "GeneralSansRg";
-  src: local("Inter"), url("./fonts/inter/Inter-Regular.ttf") format("truetype");
+	font-family: 'GeneralSansRg';
+	src: local('Inter'), url('./fonts/inter/Inter-Regular.ttf') format('truetype');
 }
 @font-face {
-  font-family: "InterMd";
-  src: local("Inter"), url("./fonts/inter/Inter-Medium.ttf") format("truetype");
+	font-family: 'InterMd';
+	src: local('Inter'), url('./fonts/inter/Inter-Medium.ttf') format('truetype');
 }
 @font-face {
-  font-family: "InterSb";
-  src: local("Inter"),
-    url("./fonts/inter/Inter-SemiBold.ttf") format("truetype");
+	font-family: 'InterSb';
+	src: local('Inter'),
+		url('./fonts/inter/Inter-SemiBold.ttf') format('truetype');
 }
 @font-face {
-  font-family: "InterBd";
-  src: local("Inter"), url("./fonts/inter/Inter-Bold.ttf") format("truetype");
+	font-family: 'InterBd';
+	src: local('Inter'), url('./fonts/inter/Inter-Bold.ttf') format('truetype');
 }
 @font-face {
-  font-family: "InterBlack";
-  src: local("Inter"), url("./fonts/inter/Inter-Black.ttf") format("opentype");
+	font-family: 'InterBlack';
+	src: local('Inter'), url('./fonts/inter/Inter-Black.ttf') format('opentype');
 }
 
 * {
-  font-family: "GeneralSansRg", sans-serif;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+	font-family: 'GeneralSansRg', sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 html {
-  scroll-behavior: smooth;
-  overflow-x: hidden !important;
+	scroll-behavior: smooth;
+	overflow-x: hidden !important;
 }
 
 body {
-  overflow-x: hidden !important;
+	overflow-x: hidden !important;
 }
+
+/* .colorChange {
+	background-color: rgba(0, 0, 0, 0.9);
+} */
