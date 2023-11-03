@@ -47,7 +47,7 @@ const HeroSection = () => {
               data-aos-delay="400"
               data-aos-duration="1000"
             >
-              <Button className="bg-[#EB3137] inline-block rounded-[3px] mt-[28px]">
+              <Button className="bg-[#EB3137] hover:bg-red-500 inline-block rounded-[3px] mt-[28px]">
                 Let's Explore
               </Button>
             </div>

@@ -1,44 +1,126 @@
-import React from 'react';
-import { logoContact } from '../../images';
-import { Container, Spacing } from '../../layouts';
+import { useRef, useState } from "react";
+import { logoContact } from "../../images";
+import { Container, Spacing } from "../../layouts";
+import { FaTimes, FaBars } from "react-icons/fa";
+import Button from "./Button";
+
+const NavMobile = ({ active }) => {
+  return (
+    <ul
+      className={`w-full max-w-full lg:hidden block absolute transition duration-500 -z-10 ${
+        active == "" ? "-translate-y-[800px]" : ""
+      } py-5`}
+    >
+      <Spacing>
+        <Container className="flex flex-col items-center justify-between h-[30vh]">
+          <li>
+            <a href="#" className="hover:text-white">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#" className="hover:text-white">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#" className="hover:text-white">
+              History
+            </a>
+          </li>
+          <li>
+            <a href="#" className="hover:text-white">
+              Service
+            </a>
+          </li>
+          <li>
+            <a href="#" className="hover:text-white">
+              Experience
+            </a>
+          </li>
+          <li>
+            <button>
+              <Button className={"bg-[#EB3137] hover:bg-red-600 rounded-md"}>
+                Contact Us
+              </Button>
+            </button>
+          </li>
+        </Container>
+      </Spacing>
+    </ul>
+  );
+};
 
 const Navbar = () => {
-	return (
+  const [isActive, setisActive] = useState(false);
 
+  function navMobileActive() {
+    setisActive(!isActive);
+  }
+
+  return (
     // ADI HTS MULU ETDAH
-		<Container>
-			<div>
-				<div>
-					<nav className='flex items-center justify-between fixed z-50 w-full px-10 lg:px-28 pt-[10px] text-white bg-opacity-80 flex-wrap'>
-						<div className='img flex gap-x-4 items-center '>
-							<img src={logoContact} alt='' />
-							<h2 className='text-xl font-generalMd'>PT MASRUR</h2>
-						</div>
-						<ul className='flex gap-x-[30px] flex-col lg:flex-row'>
-							<li>
-								<a href='#'>Home</a>
-							</li>
-							<li>
-								<a href='#'>About</a>
-							</li>
-							<li>
-								<a href='#'>History</a>
-							</li>
-							<li>
-								<a href='#'>Service</a>
-							</li>
-							<li>
-								<a href='#'>Experience</a>
-							</li>
-							<li>
-								<a href='#'>Contact Us</a>
-							</li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</Container>
-	);
+    <header className="bg-transparent w-full fixed top-0 z-50 py-3">
+      <Spacing>
+        <Container>
+          <nav className="flex items-center w-full justify-between text-gray-200">
+            <div className="logo flex items-center gap-x-4">
+              <img
+                src={logoContact}
+                alt=""
+                className="max-w-[50px] max-h-[50px]"
+              />
+              <h2 className="font-generalMd text-lg lg:text-xl">PT MASRUR</h2>
+            </div>
+            <ul className="hidden lg:flex items-center gap-[4vw]">
+              <li>
+                <a href="#" className="hover:text-white">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-white">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-white">
+                  History
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-white">
+                  Service
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-white">
+                  Experience
+                </a>
+              </li>
+              <li>
+                <button>
+                  <Button
+                    className={"bg-[#EB3137] hover:bg-red-600 rounded-md"}
+                  >
+                    Contact Us
+                  </Button>
+                </button>
+              </li>
+            </ul>
+
+            {/* mobile */}
+
+            <FaBars
+              className="cursor-pointer block lg:hidden"
+              onClick={navMobileActive}
+            />
+          </nav>
+        </Container>
+      </Spacing>
+      <NavMobile active={isActive} />
+    </header>
+  );
 };
 
 export default Navbar;
