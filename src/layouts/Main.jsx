@@ -1,18 +1,10 @@
 import { Container, Spacing } from ".";
 import { Navbar, Footer } from "../components/reusable";
-import {
-  AboutSection,
-  BenefitSection,
-  ExperienceSection,
-  HeroSection,
-  HistorySection,
-  ProductSection,
-  ServiceSection,
-} from "../components/sections";
+import { AboutSection, BenefitSection, ExperienceSection, HeroSection, HistorySection, ProductSection, ServiceSection } from "../components/sections";
 
 const Main = () => {
   return (
-    <main className="bg-baseColor flex justify-center flex-col relative h-max bg-white">
+    <main className='bg-baseColor flex justify-center flex-col relative h-max bg-white'>
       {/* full */}
       <HeroSection />
 

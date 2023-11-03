@@ -1,5 +1,15 @@
 export const footerForm = [
   {
+    id: 1,
+    title: "What's your name?",
+    formField: [
+      {
+        id: 1,
+        placeholder: "first name",
+      },
+    ],
+  },
+  {
     id: 2,
     title: "What's your email?",
     formField: [
