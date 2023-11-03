@@ -14,7 +14,7 @@ const Footer = () => {
 			<Spacing>
 				<Container>
 					<div className='container-footer'>
-						<div className='footer-content flex justify-between items-start px-16 pt-[100px] flex-wrap'>
+						<div className='footer-content flex justify-between items-start pt-[100px] flex-wrap w-full'>
 							<div className='left'>
 								<div className='title'>
 									<h1
@@ -110,7 +110,7 @@ const Footer = () => {
 									</form>
 								</div>
 							</div>
-							<div className='right lg:mt-0 mt-32'>
+							<div className='right lg:mt-0 mt-32 ml-32'>
 								<div
 									data-aos='fade-left'
 									data-aos-duration='1000'
@@ -119,7 +119,7 @@ const Footer = () => {
 									<img src={logoContact} alt='' className='' />
 									<h2 className='font-generalMd text-[42px]'>PT MASRUR</h2>
 								</div>
-								<div className='location mt-24 max-w-[522px]'>
+								<div className='mt-24'>
 									<h2
 										data-aos='fade-left'
 										data-aos-duration='1000'
@@ -133,7 +133,7 @@ const Footer = () => {
 										data-aos-duration='1000'
 										data-aos-delay='230'
 										data-aos-once='true'
-										className='text-[#717786]'>
+										className='text-[#717786] max-w-[522px]'>
 										Jln.Sekumpul Mahabbah 3 No.50 D, MARTAPURA,
 										KAB.BANJAR,KALIMANTAN SELATAN 70619
 									</p>
