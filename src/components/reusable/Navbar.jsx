@@ -14,7 +14,7 @@ const Navbar = () => {
 							<img src={logoContact} alt='' />
 							<h2 className='text-xl font-generalMd'>PT MASRUR</h2>
 						</div>
-						<ul className='flex gap-x-[30px] flex-col'>
+						<ul className='flex gap-x-[30px] flex-col lg:flex-row'>
 							<li>
 								<a href='#'>Home</a>
 							</li>
