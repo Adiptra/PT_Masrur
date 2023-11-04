@@ -33,15 +33,16 @@ const NavMobile = ({ active }) => {
 						</a>
 					</li>
 					<li>
-						<a href='#service' className='hover:text-white'>
-							Service
-						</a>
-					</li>
-					<li>
 						<a href='#experience' className='hover:text-white'>
 							Experience
 						</a>
 					</li>
+					<li>
+						<a href='#service' className='hover:text-white'>
+							Service
+						</a>
+					</li>
+
 					<li>
 						<button>
 							<Button className={'bg-[#EB3137] hover:bg-red-600 rounded-md'}>
