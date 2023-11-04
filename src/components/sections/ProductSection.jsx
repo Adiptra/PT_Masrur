@@ -1,7 +1,6 @@
 /* eslint-disable react/jsx-key */
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import React from 'react';
 import { productSection } from '../../constants/content/productContent';
 AOS.init();
 

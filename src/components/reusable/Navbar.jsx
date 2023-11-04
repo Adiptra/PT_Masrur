@@ -1,7 +1,8 @@
-import { useRef, useState } from 'react';
+/* eslint-disable react/prop-types */
+import { useState } from 'react';
 import { logoContact } from '../../images';
 import { Container, Spacing } from '../../layouts';
-import { FaTimes, FaBars } from 'react-icons/fa';
+import { FaBars } from 'react-icons/fa';
 import Button from './Button';
 
 const NavMobile = ({ active }) => {

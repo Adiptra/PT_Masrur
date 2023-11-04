@@ -1,7 +1,6 @@
 /* eslint-disable react/jsx-key */
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useState } from "react";
 import { benefitContent } from "../../constants/content/benefitContent";
 import { TextIcon } from "../reusable";
 AOS.init();

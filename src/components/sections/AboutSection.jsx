@@ -1,8 +1,7 @@
 /* eslint-disable react/jsx-key */
 import AOS from "aos";
 import "aos/dist/aos.css";
-import React from "react";
-import { Spacing, Container } from "../../layouts";
+import { Container } from "../../layouts";
 import { Button, TextIcon } from "../reusable";
 import { about, quote } from "../../images";
 import { aboutSection } from "../../constants/content/aboutContent";
