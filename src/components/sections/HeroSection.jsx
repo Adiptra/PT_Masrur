@@ -24,6 +24,7 @@ const HeroSection = () => {
 								<h2
 									data-aos='zoom-in'
 									data-aos-duration='2000'
+									data-aos-once='true' 
 									className='text-[#BEC1CA] rounded-[24px] text-[6px] md:text-sm lg:text-base bg-[#56565680] inline px-[20px] py-[5px] font-generalMd'>
 									COAL & GOLD MINING , IRON ORE, TRADING, CONTRACTOR , EXPORT &
 									IMPORT
@@ -31,12 +32,14 @@ const HeroSection = () => {
 								<h1
 									data-aos='fade-up'
 									data-aos-easing='ease-out'
+									data-aos-once='true' 
 									className='text-4xl mt-4 lg:text-[54px] drop-shadow-text font-generalSb leading-tight'>
 									Providing Best Quality Coal for Your Needs!
 								</h1>
 								<p
 									data-aos='fade-up'
 									data-aos-delay='200'
+									data-aos-once='true' 
 									data-aos-duration='1000'
 									className='max-w-[720px] inline-block mt-6 font-generalLi lg:text-base text-sm'>
 									"We are a premium coal trader from Indonesia who offers
@@ -51,6 +54,8 @@ const HeroSection = () => {
 								className='btn'
 								data-aos='fade-up'
 								data-aos-delay='400'
+								data-aos-once='true' 
+								data-aos-offset="0"
 								data-aos-duration='1000'>
 								<Button className='bg-[#EB3137] hover:bg-red-500 inline-block rounded-[3px] mt-[28px]'>
 									Let's Explore

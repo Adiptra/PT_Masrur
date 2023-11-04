@@ -66,7 +66,11 @@ const Navbar = () => {
 
 	return (
 		// ADI HTS MULU ETDAH
-		<header className='w-full bg-black opacity-90 fixed top-0 z-50 py-3'>
+		<header 
+		data-aos='fade-down'
+		data-aos-duration='1000'
+		data-aos-once='true' 
+		className='w-full bg-black opacity-90 fixed top-0 z-50 py-3'>
 			<Spacing>
 				<Container>
 					<nav className='flex items-center w-full justify-between text-gray-200'>
