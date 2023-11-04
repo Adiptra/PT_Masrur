@@ -110,14 +110,14 @@ const Footer = () => {
 									</form>
 								</div>
 							</div>
-							<div className='right lg:mt-0 mt-32 ml-32'>
+							<div className='right lg:mt-0 mt-32 lg:ml-32'>
 								<div
 									data-aos='fade-left'
 									data-aos-duration='1000'
 									data-aos-once='true'
 									className='logo flex items-center gap-x-8'>
 									<img src={logoContact} alt='' className='' />
-									<h2 className='font-generalMd text-[42px]'>PT MASRUR</h2>
+									<h2 className='font-generalMd text-3xl lg:text-[42px]'>PT MASRUR</h2>
 								</div>
 								<div className='mt-24'>
 									<h2

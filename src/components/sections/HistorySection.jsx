@@ -37,7 +37,7 @@ const HistorySection = () => {
                     data-aos-once='true'
                     className='flex justify-between pt-4 pb-16 border-b border-[#BEC1CA] w-[70%] gap-x-[10px]'>
                     <div className='left-content w-[25%] '>
-                      <h1 className='font-InterBd text-[32px]'>{history.year}</h1>
+                      <h1 className='font-InterBd text-2xl lg:text-[32px]'>{history.year}</h1>
                       <p>{history.month}</p>
                     </div>
                     <div className='right-content w-[50%] '>

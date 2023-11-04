@@ -9,7 +9,7 @@ const NavMobile = ({ active }) => {
 	return (
 		<ul
 			className={`w-full max-w-full lg:hidden flex justify-center items-center absolute transition duration-500 -z-10 h-[110vh] -translate-y-[800px] mt-0 ${
-				active == '' ? '-translate-y-20 bg-black opacity-90' : ''
+				active == '' ? '-translate-y-0 bg-black opacity-90' : ''
 			} py-5`}>
 			<Spacing>
 				<Container className='flex flex-col items-center justify-between h-[55vh] text-white'>
