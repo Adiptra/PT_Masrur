@@ -58,7 +58,7 @@ const NavMobile = ({ active }) => {
 };
 
 const Navbar = () => {
-	const [isActive, setisActive] = useState(false);
+	const [isActive, setisActive] = useState(true);
 
 	function navMobileActive() {
 		setisActive(!isActive);
