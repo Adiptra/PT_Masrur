@@ -47,7 +47,7 @@ const Footer = () => {
 														data-aos-delay='220'
 														data-aos-once='true'
 														className='id'>
-														<h2 className='text-xl font-generalMd'>01</h2>
+														<h2 className='text-xl font-generalMd'>{footer.id}</h2>
 													</div>
 													<div className='input-field w-full'>
 														<div className='title'>
