@@ -10,8 +10,8 @@ const BenefitSection = () => {
   const benefits = benefitContent.benefits;
 
   return (
-    <div className="mt-16">
-      <div className="containerBenefit flex-none md:flex justify-center md:justify-between">
+    <section className="mt-16">
+      <div className="containerBenefit flex-none md:flex justify-center md:justify-between" id="benefit">
         <div
           className="text-[#0F172A] text-[36px] font-generalSb w-full md:w-[25%] md:text-left text-center"
           data-aos="fade-up"
@@ -53,7 +53,7 @@ const BenefitSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

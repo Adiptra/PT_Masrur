@@ -4,7 +4,7 @@ import { experienceSection } from "../../constants/content/experienceContent";
 
 const ExperienceSection = () => {
   return (
-    <div className='mt-[100px] border-t-[1px] pt-16'>
+    <section className='mt-[100px] border-t-[1px] pt-16' id="experience">
       <div className='wrapper '>
         {experienceSection.map((element) => {
           return (
@@ -98,7 +98,7 @@ const ExperienceSection = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

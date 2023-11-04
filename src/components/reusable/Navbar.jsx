@@ -13,27 +13,32 @@ const NavMobile = ({ active }) => {
 			<Spacing>
 				<Container className='flex flex-col items-center justify-between h-[55vh] text-white'>
 					<li>
-						<a href='#' className='hover:text-white'>
+						<a href='#home' className='hover:text-white'>
 							Home
 						</a>
 					</li>
 					<li>
-						<a href='#' className='hover:text-white'>
+						<a href='#benefit' className='hover:text-white'>
+							Benefits
+						</a>
+					</li>
+					<li>
+						<a href='#about' className='hover:text-white'>
 							About
 						</a>
 					</li>
 					<li>
-						<a href='#' className='hover:text-white'>
+						<a href='#history' className='hover:text-white'>
 							History
 						</a>
 					</li>
 					<li>
-						<a href='#' className='hover:text-white'>
+						<a href='#service' className='hover:text-white'>
 							Service
 						</a>
 					</li>
 					<li>
-						<a href='#' className='hover:text-white'>
+						<a href='#experience' className='hover:text-white'>
 							Experience
 						</a>
 					</li>
@@ -73,30 +78,36 @@ const Navbar = () => {
 						</div>
 						<ul className='hidden lg:flex items-center gap-[4vw]'>
 							<li>
-								<a href='#' className='hover:text-white'>
+								<a href='#home' className='hover:text-white'>
 									Home
 								</a>
 							</li>
 							<li>
-								<a href='#' className='hover:text-white'>
+								<a href='#about' className='hover:text-white'>
 									About
 								</a>
 							</li>
 							<li>
-								<a href='#' className='hover:text-white'>
+								<a href='#history' className='hover:text-white'>
 									History
 								</a>
 							</li>
 							<li>
-								<a href='#' className='hover:text-white'>
-									Service
+								<a href='#product' className='hover:text-white'>
+									Products
 								</a>
 							</li>
 							<li>
-								<a href='#' className='hover:text-white'>
+								<a href='#experience' className='hover:text-white'>
 									Experience
 								</a>
 							</li>
+							<li>
+								<a href='#service' className='hover:text-white'>
+									Service
+								</a>
+							</li>
+
 							<li>
 								<button>
 									<Button

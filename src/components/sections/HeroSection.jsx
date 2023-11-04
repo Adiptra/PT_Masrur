@@ -8,7 +8,7 @@ AOS.init();
 
 const HeroSection = () => {
   return (
-    <div className="bg-hero h-[100vh] bg-no-repeat bg-cover text-white text-center flex justify-center items-center">
+    <section className="bg-hero h-[100vh] bg-no-repeat bg-cover text-white text-center flex justify-center items-center" id="home">
       <Spacing>
         <Container>
           <div className="content max-w-[1108px]">
@@ -54,7 +54,7 @@ const HeroSection = () => {
           </div>
         </Container>
       </Spacing>
-    </div>
+    </section>
   );
 };
 

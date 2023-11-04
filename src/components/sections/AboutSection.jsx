@@ -10,7 +10,7 @@ AOS.init();
 
 const AboutSection = () => {
   return (
-    <div className="border-t-[1px] pt-16 mt-16 border-[#00000080]">
+    <section className="border-t-[1px] pt-16 mt-16 border-[#00000080]" id="about"> 
       <Container>
         <div>
           <h1
@@ -137,7 +137,7 @@ const AboutSection = () => {
           </Button>
         </div>
       </Container>
-    </div>
+    </section>
   );
 };
 

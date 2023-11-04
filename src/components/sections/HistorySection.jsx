@@ -11,7 +11,7 @@ AOS.init();
 const HistorySection = () => {
   const histories = historySection.histories;
   return (
-    <section className='relative flex w-full text-white mt-16 bg-[#0F172A] pb-16'>
+    <section className='relative flex w-full text-white mt-16 bg-[#0F172A] pb-16' id="history">
       <img src={bgHistory1} className='absolute -top-10 -left-2' />
       <img src={bgHistory2} className='absolute -bottom-10' />
       <Spacing className='w-full'>
