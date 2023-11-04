@@ -8,7 +8,7 @@ const NavMobile = ({ active }) => {
 	return (
 		<ul
 			className={`w-full max-w-full lg:hidden flex justify-center items-center absolute transition duration-500 -z-10 h-[110vh] -translate-y-[800px] mt-0 ${
-				active == '' ? '-translate-y-[100px] bg-black opacity-90	' : ''
+				active == '' ? '-translate-y-20 bg-black opacity-90' : ''
 			} py-5`}>
 			<Spacing>
 				<Container className='flex flex-col items-center justify-between h-[55vh] text-white'>
@@ -59,7 +59,7 @@ const Navbar = () => {
 
 	return (
 		// ADI HTS MULU ETDAH
-		<header className='bg-transparent w-full fixed top-0 z-50 py-3'>
+		<header className='w-full bg-black opacity-90 fixed top-0 z-50 py-3'>
 			<Spacing>
 				<Container>
 					<nav className='flex items-center w-full justify-between text-gray-200'>
