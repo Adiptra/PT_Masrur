@@ -10,7 +10,7 @@ AOS.init();
 
 const Footer = () => {
 	return (
-		<div className='bg-[#0F172A] text-white pb-[150px]'>
+		<div className='bg-[#0F172A] text-white pb-[150px] id="contactUs"'>
 			<Spacing>
 				<Container>
 					<div className='container-footer'>
@@ -34,7 +34,7 @@ const Footer = () => {
 										us!
 									</h2>
 								</div>
-								<div className='form mt-[83px]' id="contactUs">
+								<div className='form mt-[83px]'>
 									<form action=''>
 										<div className='left'>
 											{footerForm.map((footer) => (
