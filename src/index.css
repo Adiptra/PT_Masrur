@@ -78,3 +78,16 @@ body {
 /* .colorChange {
 	background-color: rgba(0, 0, 0, 0.9);
 } */
+
+.wrapper-content {
+	background-image: url('./images/coalCover.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+ @media only screen and (max-width : 768px) {
+	.wrapper-content {
+		height: 150vh;
+	}
+ }

@@ -34,6 +34,11 @@ const NavMobile = ({ active }) => {
 						</a>
 					</li>
 					<li>
+						<a href='#product' className='hover:text-white'>
+							Products
+						</a>
+					</li>
+					<li>
 						<a href='#experience' className='hover:text-white'>
 							Experience
 						</a>
@@ -45,11 +50,7 @@ const NavMobile = ({ active }) => {
 					</li>
 
 					<li>
-						<button>
-							<Button className={'bg-[#EB3137] hover:bg-red-600 rounded-md'}>
-								Contact Us
-							</Button>
-						</button>
+						<a href="#contactUs" className='bg-[#EB3137] hover:bg-red-600 rounded-md py-3 px-4'>Contact Us</a>
 					</li>
 				</Container>
 			</Spacing>
@@ -116,10 +117,7 @@ const Navbar = () => {
 
 							<li>
 								<button>
-									<Button
-										className={'bg-[#EB3137] hover:bg-red-600 rounded-md'}>
-										Contact Us
-									</Button>
+									<a href="#contactUs" className='bg-[#EB3137] hover:bg-red-600 rounded-md py-3 px-4'>Contact Us</a>
 								</button>
 							</li>
 						</ul>

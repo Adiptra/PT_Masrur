@@ -18,11 +18,11 @@ const Main = () => {
 
       {/* full */}
       <HistorySection />
+      <ProductSection />
 
       {/* no full */}
       <Spacing>
         <Container>
-          <ProductSection />
           <ExperienceSection />
         </Container>
       </Spacing>

@@ -13,6 +13,7 @@ import check from "./check.svg";
 import expCover from "./expCover.jpeg";
 import expCover2 from "./expCover2.jpg";
 import logoContact from "./logoMasrur.png";
+import coalCover from "./coalCover.png"
 
 export {
   about,
@@ -30,4 +31,5 @@ export {
   expCover,
   expCover2,
   logoContact,
+  coalCover,
 };
