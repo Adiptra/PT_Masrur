@@ -10,7 +10,7 @@ AOS.init();
 
 const Footer = () => {
 	return (
-		<div className='bg-[#0F172A] text-white pb-[150px] id="contactUs"'>
+		<div className='bg-[#0F172A] text-white pb-[150px]' id="contactUs">
 			<Spacing>
 				<Container>
 					<div className='container-footer'>
