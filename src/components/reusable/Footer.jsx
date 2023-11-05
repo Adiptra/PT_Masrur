@@ -34,7 +34,7 @@ const Footer = () => {
 										us!
 									</h2>
 								</div>
-								<div className='form mt-[83px]'>
+								<div className='form mt-[83px]' id="contactUs">
 									<form action=''>
 										<div className='left'>
 											{footerForm.map((footer) => (

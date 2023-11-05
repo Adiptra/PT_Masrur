@@ -3,7 +3,7 @@ import { experienceSection } from "../../constants/content/experienceContent";
 
 const ExperienceSection = () => {
   return (
-    <section className='mt-[100px] border-t-[1px] pt-16' id="experience">
+    <section className='mt-[100px] border-t-[2px] pt-16' id="experience">
       <div className='wrapper '>
         {experienceSection.map((element) => {
           return (
